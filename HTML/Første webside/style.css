@@ -1,0 +1,39 @@
+* {
+    font-family: Roboto, sans-serif;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+a {
+    color: Aqua;
+    text-decoration: none;
+}
+
+img {
+    width: 250px;
+    border-radius: 100%;
+}
+
+body {
+    background: #141E30;
+}
+
+h1 {
+    color: white;
+    background-color: blue;
+}
+
+
+#kursiv {
+    font-style: italic;
+}
+
+#bold {
+    font-weight: bold;
+}
+
+.Liste{
+    max-width: 100px; 
+    margin: auto;
+    text-align: left;   
+}
