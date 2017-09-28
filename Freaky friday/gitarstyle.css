@@ -1,11 +1,15 @@
 * {
-    background-color: #ffffb3;
+    background-color: white;
     font-family: Helvetica;
     padding: 0 auto;
-    margin: 0 auto  ;
+    margin: 0 auto;
 }
 
-img {
+html {
+    padding-bottom: 200px;
+}
+
+#logo {
     width: 200px;
     position: fixed;
     left: 700px;
@@ -13,7 +17,7 @@ img {
 }
 
 h1 {
-    padding: 30px 0px 45px 200px;
+    padding: 30px 0px 50px 200px;
     text-transform: uppercase;
     font-size: 35px;
     position: fixed;
@@ -30,25 +34,27 @@ h1 {
 }
 
 .buttons a{
-    border: 2px solid black;
+/*    border: 2px solid black; */
     border-radius: 5px;
     color: black;
     margin: 10px;
     padding: 2px;
     width: 300px;
     text-decoration: none;
+    font-family: 'Playfair Display', serif;
 }
 
 .tekst {
     position: relative;
-    top: 130px;
-    max-width: 400px;
+    top: 140px;
+    max-width: 600px;
     margin-left: 250px;
     text-align: justify;
+    font-family: 'Playfair Display', serif;
 }
 
 #knappEN, #knappTO, #knappTRE {
-    background-color: #ffff33;
+    background-color: #ff6600;
 }
 
 #bunntekst {
@@ -57,5 +63,28 @@ h1 {
     padding: 5px 50px 5px 250px;
     width: 100%;
     border-top: 1px solid black;
-    font-size: 10   px;
+    font-size: 12px;
+}
+
+.bilder-grep {
+    position: relative;
+    width: 400px;
+    top: 200px;
+    margin-left: 250px;
+}
+
+.tekst.space {
+    padding-bottom: 10px;
+}
+
+#bold {
+    font-weight: bold;
+}
+
+.video {
+    margin-left: 250px;
+    position: relative;
+    top: 150px;
+    width: 420px;
+    height: 315px;
 }
